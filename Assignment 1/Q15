@@ -1,0 +1,8 @@
+import csv
+
+filename = "data.csv"
+
+with open(filename, newline='') as csvfile:
+    reader = csv.reader(csvfile)
+    for row in reader:
+        print(', '.join(row))

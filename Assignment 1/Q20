@@ -1,0 +1,11 @@
+def calculate_sum(numbers):
+    total_sum = 0
+    for num in numbers:
+        total_sum += int(num)
+    return total_sum
+
+input_numbers = input()
+numbers = input_numbers.split()
+numbers = [int(num) for num in numbers]
+result = calculate_sum(numbers)
+print(result)

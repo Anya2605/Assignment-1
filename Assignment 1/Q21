@@ -1,0 +1,4 @@
+elements = list(map(int, input("Enter a list of numbers separated by spaces: ").split()))
+specific_element = int(input("Enter the element to count: "))
+count = elements.count(specific_element)
+print(f"The element {specific_element} occurs {count} times in the list.")
